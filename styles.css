@@ -92,6 +92,19 @@ button#cta {
   font-size: 1rem;
 }
 
+/* Footer contact info */
+.site-footer {
+  background: transparent; /* sit visually over the page end */
+  color: #fff;
+  padding: 1.25rem 1rem;
+  text-align: center;
+}
+.site-footer .contact p {
+  margin: 0.25rem 0;
+  color: #fff; /* ensure visible over image */
+  user-select: text; /* make sure text is highlightable */
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .hero h1 { font-size: 2rem; }
